@@ -1,0 +1,35 @@
+body{
+  margin: 5%;
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVAzTZWzkn5hmmrLx_ipontQfkF5-PCQBmeqFAwvot1E8nC72I");
+}
+.main{
+  background-color: #fb3569;
+  text-align: center;
+  font-size: 2rem;
+  line-height: normal;
+  font-family:'Coiny', cursive;
+  font-weight: bold;
+  color:#000;
+  background-image: url("https://d1nz104zbf64va.cloudfront.net/dt/a/o/top-heartwarming-10-facts-about-love.jpg");
+}
+form{
+  margin: 10%;
+  font-style: oblique;
+  font-family: sans-serif;
+  font-weight: Bold;
+  color:#fff;
+}
+p{
+  font-family: inherit;
+  font-size: 1.3rem;
+  line-height: normal;
+
+}
+#sections{
+  text-align:center;
+
+}
+input{
+  background-color: #f68787;
+}
