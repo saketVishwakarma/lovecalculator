@@ -1,42 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Love calculator</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="style1.css">
-    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script>
-      function calculateresult(){
-        var ram=Math.random();
-        ram=ram*100;
-        ram=Math.floor(ram)+1;
-        var shyam="";
-        if(ram<50) {
-          shyam="Average";
-        }
-        else{
-          shyam="Strong";
-        }
-        var d=":: Your Love "+ram+"% "+shyam+"::";
-        document.getElementById('result').innerHTML=d;
-      }
-      </script>
-  </head>
-  <body>
-    <div class="main">
-      <img src="https://images.pexels.com/photos/5390/sunset-hands-love-woman.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-      <h1>Love calculator</h1 >
-        </div>
-    <section id="sections">
-      <form>
-        Your Name:<input type="text" name="Your name"> <span>  </span>Your Love Name:<input type="text" name="your crush name"><span>  </span><button type="button" onclick="calculateresult()" class="btn btn-danger btn-outline-light">Calculate</button>
-<hr size="3">
-<p  id="result"></p>
-</form>
-</section>
-<footer id="footers">
-  @copyright2019 i_m_skv</footer>
-  </body>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Love Calculator</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+<div class="overlay"></div>
+<canvas id="confetti"></canvas>
+
+<div class="container">
+    <h1>💖 Love Calculator 💖</h1>
+    <input type="text" id="name1" placeholder="Your Name"><br>
+    <input type="text" id="name2" placeholder="Partner's Name"><br>
+    <button onclick="calculateLove()">Calculate</button>
+    <div class="result" id="resultText"></div>
+    <div class="status" id="statusText"></div>
+    <div class="heart" id="heart">❤️</div>
+</div>
+<script src="./script.js"></script>
+</body>
 </html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Love Calculator</title>
+<link rel="icon" href="favicon.ico">
+<link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+<div class="overlay"></div>
+<canvas id="confetti"></canvas>
+
+<div class="container">
+    <h1>💖 Love Calculator 💖</h1>
+    <input type="text" id="name1" placeholder="Your Name"><br>
+    <input type="text" id="name2" placeholder="Partner's Name"><br>
+    <button onclick="calculateLove()">Calculate</button>
+    <div class="result" id="resultText"></div>
+    <div class="status" id="statusText"></div>
+    <div class="heart" id="heart">❤️</div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
